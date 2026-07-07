@@ -30,7 +30,7 @@ This section captured seasonality every merchant by (trend, season_daily, season
 
 ### Task 3
 
-This section explored what find insight from weekly_features_2024_2025.csv such as Time-Series & Seasonality Analysis, Comparative & Categorical Analysis, Ratio & Efficiancy Analysis, Marketplace Composition Analysis, Correlation & Multivariate Analysis, Outlier & Anomaly Detection  
+This section explored what find insight from weekly_features_2024_2025.csv such as Time-Series & Seasonality Analysis, Comparative & Categorical Analysis, Ratio & Efficiancy Analysis, Marketplace Composition Analysis, Correlation & Multivariate Analysis, Outlier & Anomaly Detection and prediction intervals / uncertainty with defined two quantiles, 0.1 and 0.9, which correspond to the 10th and 90th percentiles of the distribution of the forecast 
 
 ## Note for Code
 
