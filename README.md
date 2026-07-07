@@ -32,7 +32,7 @@ This section captured seasonality every merchant by (trend, season_daily, season
 
 This section explored what find insight from weekly_features_2024_2025.csv such as Time-Series & Seasonality Analysis, Comparative & Categorical Analysis, Ratio & Efficiancy Analysis, Marketplace Composition Analysis, Correlation & Multivariate Analysis, Outlier & Anomaly Detection  
 
-# Note for Code
+## Note for Code
 
 if you want to run Task1.ipynb,Task2.ipynb,Task3.ipynb and main.py dont forget to install necessary library such as numpy,pandas,neuralprophet,matplotlib,seaborn then running inside of virtual environment in python
 
