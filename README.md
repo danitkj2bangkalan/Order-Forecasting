@@ -16,7 +16,9 @@ There are 6 in this repository:
 
 ## What i delivered
 
-in Task 1 and Task 2 i propose NeuralProphet model 
+in Task 1 and Task 2 i propose NeuralProphet model, this model has capabilities such as Hybrid Architecture, Autoregressive Neural Network (AR-Net) Integration.
+NeuralProphet allows for deep customization, Scalable Engine and GLobal Modeling, faster than previous model(Facebook Prophet) and often beats Prophet for short-term forecasts because of its auto-regressive (AR) components 
+NeuralProphet breaks down forecasts into simple parts like trend and seasonality, works great on both small and large datasets and handles complex seasonal patterns better.
 
 ### Task 1
 
