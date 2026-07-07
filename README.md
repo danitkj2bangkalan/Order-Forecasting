@@ -11,10 +11,10 @@ There are 6 in this repository:
 | 2  | weekly_features_2024_2025.csv      | This file used in Task 3                                                                      |
 | 3  | Task1.ipynb                        | Forecast total daily order volume across all 10 merchants combined for 2026-01-01 → 2026-06-30|
 | 4  | Task2.ipynb                        | Forecast daily order volume for each of the 10 merchants individually for the same horizon.   |
-| 5  | Task5.ipynb                        | Explore Analysis in order to find insight from weekly_features_2024_2025.csv                  |
+| 5  | Task3.ipynb                        | Explore Analysis in order to find insight from weekly_features_2024_2025.csv                  |
 | 6  | main_source.py                     | this file contain several function that call in Task1.ipynb                                   |
 
-## What i delivered
+## What delivered
 
 in Task 1 and Task 2 i propose NeuralProphet model, this model has capabilities such as Hybrid Architecture, Autoregressive Neural Network (AR-Net) Integration.
 NeuralProphet allows for deep customization, Scalable Engine and GLobal Modeling, faster than previous model(Facebook Prophet) and often beats Prophet for short-term forecasts because of its auto-regressive (AR) components 
@@ -31,3 +31,18 @@ This section captured seasonality every merchant by (trend, season_daily, season
 ### Task 3
 
 This section explored what find insight from weekly_features_2024_2025.csv such as Time-Series & Seasonality Analysis, Comparative & Categorical Analysis, Ratio & Efficiancy Analysis, Marketplace Composition Analysis, Correlation & Multivariate Analysis, Outlier & Anomaly Detection  
+
+# Note for Code
+
+if you want to run Task1.ipynb,Task2.ipynb,Task3.ipynb and main.py dont forget to install necessary library such as numpy,pandas,neuralprophet,matplotlib,seaborn then running inside of virtual environment in python
+
+if you want to run Task1.ipynb inside virtual environment python dont forget to downgrade pandas version when installing pip,This brings back the deprecated attribute and lets NeuralProphet run smoothly.
+
+    FutureWarning: Series.view is deprecated and will be removed in a future version. Use ``astype`` as an alternative to change the dtype.
+    converted_ds = pd.to_datetime(ds_col, utc=True).view(dtype=np.int64)
+
+    >>pip install "pandas<3.0.0" 
+
+if you want to run Task2.ipynb inside virtual environment python Downgrade PyTorch if run task2 because weight_only defaults to False
+    >>pip install torch==2.5.1
+because torch in neuralprophet support global modeling in torch==2.5.1 version 
